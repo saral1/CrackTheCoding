@@ -15,7 +15,7 @@ public class CheckPermutations{
 	Return true if all values are 0, else return false
 
 	Time: O(n) - most optimized is O(n) since has to go through string at least once
-	Space: O(n) 
+	Space: O(1) - uses an array of size 256, no relation to n 
 
 	@return true if 2 strings are permutations of each other, false otherwise
 	***/
